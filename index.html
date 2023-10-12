@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <title>Seguro de Auto Banorte</title>
+</head>
+
+<body>
+    <main>
+        <nav class="container">
+            <div class="row">
+                <div class="col bg-white banorte-logo">
+                    <img src="./Images/logo-banorte.svg" alt="banorte-logo">
+                </div>
+                <div class="col logo-ahorra-color">
+                    <img src="./Images/logo-ahorra-color.svg" class="img-logo-ahorra-color" alt="logo-ahorra-color">
+                </div>
+                <div class="col telefono-seguro">
+                    <p><i class="fa-solid fa-phone"></i> (55) 4749 5120</p>
+                </div>
+            </div>
+
+
+        </nav>
+        <div class="container  mt-4">
+            <div class="row">
+                <div class="col-6 carro ">
+                    <h1 class="mb-3">Seguros de Autos BANORTE</h1>
+                    <h2 class="mb-3"><i class="fa-solid fa-tag fa-2xl"></i> Obtén ¡Increíbles Descuentos!</h2>
+                    <p class="mb-3">+ 6 y 12 meses sin intereses</p>
+                    <img src="./Images/banner-banorte.png" alt="carro" class="img-carro">
+                </div>
+                <div class="col form ">
+                    <p class="text-center mt-2">Cotiza tu seguro de auto en 10 segundos</p>
+                    <form action="post">
+                        <div class="container">
+                            <div class="row mt-1">
+                                <div class="col  ">
+                                    <select class="" name="marca" id="marca">
+                                        <option value="">-- SELECCIONE UNA MARCA --</option>
+                                        <option value="nissan">NISSAN</option>
+                                        <option value="chevrolet">CHEVROLET</option>
+                                        <option value="honda">HONDA</option>
+                                        <option value="ford">FORD</option>
+                                        <option value="wolkswagen">WOLKSWAGEN</option>
+                                        <option value="toyota">TOYOTA</option>
+                                        <option value="mazda">MAZDA</option>
+                                        <option value="dodge">DODGE</option>
+                                        <option value="vmw">VMW</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row  mt-1">
+                                <div class="col">
+                                    <select class="" name="edad" id="edad">
+                                        <option value="">-- EDAD DEL CONDUCTOR --</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row  mt-1">
+                                <div class="col">
+                                    <select name="genero" id="genero">
+                                        <option value="">-- GENERO --</option>
+                                        <option value="masculino">MASCULINO</option>
+                                        <option value="femenino">FEMENINO</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <input type="text" value="" placeholder="Codigo Postal">
+                                </div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col">
+                                    <input type="text" values="" placeholder="Escribe tu nombre">
+                                </div>
+                            </div>
+                            <div class="row mt-1">
+                                <div class="col">
+                                    <input type="email" values="" placeholder="Escribe tu email">
+                                </div>
+                                <div class="col">
+                                    <input type="telefono" values="" placeholder="Escribe tu telefono">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col mt-4 text-center">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" role="switch"
+                                            id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">
+                                            Acepto que he leído el Aviso de privacidad
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row  mt-4">
+                                <div class="col"></div>
+                                <button type="submit" class="btn-cotiza">Cotiza Gratis <i
+                                        class="fa-solid fa-chevron-right"></i></button>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <p class='codiciones text-center'>
+                                        <i class="fa-solid fa-lock"></i> Tu información
+                                        está segura
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"
+        integrity="sha384-q9CRHqZndzlxGLOj+xrdLDJa9ittGte1NksRmgJKeCV9DrM7Kz868XYqsKWPpAmn"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
